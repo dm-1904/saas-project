@@ -1,0 +1,65 @@
+.nav-section {
+  width: 100%;
+  height: 500px;
+  background-image: url(/saas-project-assets/backgrounds/background-top.svg);
+}
+
+.nav-hero {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--size-20) var(--size-30);
+}
+
+.nav-img img {
+  height: 40px;
+}
+
+.nav-box nav ul {
+  display: flex;
+  margin-right: -12rem;
+}
+
+.nav-box nav ul li {
+  padding: 0 var(--size-10);
+}
+
+.features {
+  color: var(--blue);
+}
+
+.main-content {
+  display: flex;
+}
+
+.row {
+  display: flex;
+}
+
+.pic-box {
+  background-color: white;
+  box-shadow: 0px 0px 10px lightgray;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-box div img {
+  /* height: 4rem;
+  box-shadow: 0px 0px 20px black ;
+  border-radius: 50%;
+  padding: 10px;
+  object-fit: cover; */
+  height: 60%;
+}
+
+.icon-box .row2 .lg-img {
+  height: 80%;
+}
+
+.icon-box .row .small-box {
+  height: 80px;
+  width: 80px;
+}
