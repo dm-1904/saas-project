@@ -230,7 +230,7 @@ align-self: flex-end;
   justify-content: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
@@ -322,5 +322,5 @@ align-self: flex-end;
 
   .section3-banner img{
     width: 100%;
-
+    margin-top: 50px;
   }
