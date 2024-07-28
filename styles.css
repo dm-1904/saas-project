@@ -1,3 +1,7 @@
+/* * {
+  border: 1px solid red;
+} */
+
 .nav-section {
   width: 100%;
   height: 500px;
@@ -29,18 +33,58 @@
 
 .main-content {
   display: flex;
+  justify-content: space-between;
+  padding: 50px 40px;
+}
+
+.main-content .main-left-box .bold-header {
+  padding-bottom: 20px;
+
+}
+
+.main-content .main-left-box .bold-header .header-text {
+  font-size: 50px;
+  line-height: 1;
+  color: black;
+}
+
+.main-content .main-left-box .left-box-text {
+  padding-bottom: 20px;
+}
+
+.main-content .main-left-box .left-box-text span {
+  font-size: 16px;
+}
+
+.button-box button i {
+  padding-right: 3px;
+}
+
+.button-box span {
+  padding-left: 30px;
+  color: var(--blue);
+  font-size: var(--size-20);
+  font-weight: 500;
+}
+
+.icon-box {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
 }
 
 .row {
   display: flex;
+  justify-content:space-between;
+  padding-bottom: 60px;
 }
 
 .pic-box {
   background-color: white;
   box-shadow: 0px 0px 10px lightgray;
   border-radius: 50%;
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,11 +99,128 @@
   height: 60%;
 }
 
+.row3 {
+  padding-bottom: 0px;
+}
+
 .icon-box .row2 .lg-img {
   height: 80%;
 }
 
 .icon-box .row .small-box {
-  height: 80px;
-  width: 80px;
+  height: 60px;
+  width: 60px;
+}
+
+.icon-box .row1 .small-box {
+  margin-left: 40px;
+}
+
+.icon2 {
+  margin-right: 100px;
+}
+
+.icon5 {
+  margin-right: 120px;
+}
+
+.icon6 {
+  margin-left: 100px;
+}
+
+.icon7 {
+  margin-top: 20px;
+}
+
+.section1 {
+  background-color: white;
+  height: 500px;
+}
+
+.section1-header {
+  margin-top: 120px;
+  text-align: center;
+}
+
+.section1-header h3 {
+  color: black;
+  font-size: var(--size-30);
+  margin-bottom: 0px;
+}
+
+.section1-header span {
+  font-size: 17px;
+}
+
+.section1-grid {
+  /* display: grid; */
+  column-count: 4;
+  max-width: 900px;
+  gap: 30px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.grid-column {
+  box-shadow: 0px 5px 10px lightgray;
+  height: 265px;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.responsive-pic {
+  height: 55px;
+  margin: 15px 15px 0px 15px;
+}
+
+.grid-column h3 {
+  margin: 0px 15px 15px 15px;
+}
+
+.grid-column .column-text, a {
+  margin: 0px 10px 20px 15px;
+}
+
+.grid-column a {
+  font-weight: 500;
+  color: var(--blue);
+}
+
+.section2 {
+  background-color: #f9f9f9;
+  margin: 0px 30px;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section2 .container {
+  /* background-color: lightgray; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 0;
+}
+.section2-header {
+  line-height: 1.2;
+  padding-left: 30px;
+}
+
+.section2-header h3 {
+  font-size: 30px;
+  font-weight: 400;
+
+}
+
+.section2-banner {
+/* display: flex; */
+width: 50%;
+align-self: flex-end;
+}
+
+.section2-banner img{
+  width: 100%;
+  /* bottom: 0; */
+
 }
