@@ -20,6 +20,11 @@ html {
   scroll-behavior: smooth;
 }
 
+.hero {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
