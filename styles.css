@@ -660,6 +660,99 @@ align-self: flex-end;
     margin-top: 30px;
   }
 
-  /* .first-name {
-    max-width: 100px;
-  } */
+  .section8 {
+    height: 350px;
+
+    display: flex;
+  }
+
+  .top-footer {
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 100px;
+    width: 1024px;
+    height: 240px;
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .logo-box img {
+    height: 50px;
+  }
+
+  .company-box, .features-box, .doc-box, .resources-box {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .company-box .career-box {
+    display: flex;
+  }
+
+  .career-box {
+    display: flex;
+    height: 27px;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+ .career-box .button {
+  background-color: var(--blue);
+  height: 20px;
+  width: 100px;
+  /* margin-left: 10px; */
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+ }
+
+ .career-box .button span {
+  line-height: 0;
+  font-size: 10px;
+  color: white;
+ }
+
+ .features-box .blue-span {
+  color: var(--blue);
+ }
+
+ .section9 {
+  height: 250px;
+ }
+
+ .hr-box {
+  display: flex;
+  justify-content: center;
+ }
+
+ .footer-hr {
+  border-bottom: 1px solid lightgray;
+  width: 90%;
+
+ }
+
+ .bottom-footer {
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ }
+
+ .footer-socials i {
+  margin-right: 15px;
+ }
+
+ #footer-select {
+  margin-top: 0px;
+ }
+
+ .rights-reserved, .end-note {
+  text-align: center;
+ }
+
+ .end-note {
+  margin-top: 20px;
+ }
