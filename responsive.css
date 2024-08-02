@@ -1,0 +1,149 @@
+
+@media screen and (max-width: 768px) {
+
+  section {
+    position: relative;
+    margin-bottom: 250px;
+  }
+
+  .nav-box .navbar-toggle-box {
+    display: block;
+  }
+
+
+
+  .nav-box .navbar, .nav-hero .button-box {
+    display: none;
+  }
+
+  .nav-section .main-content {
+    flex-direction: column;
+    align-items: center;
+    /* width: 100%; */
+  }
+
+  .nav-section .main-content {
+    padding: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .main-content .main-left-box {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .main-content .icon-box {
+    width: 70%;
+  }
+
+  .section1 .section1-header {
+    margin-top: 400px;
+  }
+
+  .section1 .section1-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 500px;
+  }
+
+  .section1-grid .grid-column {
+    width: 300px;
+
+  }
+
+  .section2 .container {
+    /* margin-top: 500px; */
+    flex-direction: column;
+    /* align-items: center; */
+  }
+
+  .section2 .section2-header {
+    padding-left: 0px;
+  }
+
+  .section2-header .desktop-header {
+    display: none;
+  }
+
+  .section2-header .tablet-header {
+    display: block;
+    text-align: center;
+  }
+
+  .section2 .section2-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section2 .section2-banner {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .hero .section2 {
+    margin-bottom: 130px;
+  }
+
+  .hero .section3 {
+    margin-bottom: 0px;
+  }
+
+  .pic-element .pic  {
+    margin-top: 0px;
+  }
+
+  .hero .section4 {
+    margin-bottom: 350px;
+  }
+
+  .hero .section4 .container {
+    flex-direction: column;
+    /* margin-bottom: 100px; */
+  }
+
+  .hero .section5 {
+    margin-bottom: 50px;
+  }
+
+  .section5 .container {
+    margin: 0px 40px;
+  }
+
+  .section6 .card-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section6 .card-section .card {
+    width: 90%;
+
+
+  }
+
+  .section6 .container .card-content {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+  }
+
+  .card-content .desktop-text {
+    display: none;
+  }
+
+  .card-content .tablet-text {
+    display: block;
+    width: 100%;
+  }
+
+  .card-section .card .card-content hr {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+  }
+
+
+}

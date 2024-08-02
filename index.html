@@ -26,7 +26,23 @@
           <img src="/saas-project-assets/project_logo/logo.svg" alt="">
         </div>
         <div class="nav-box">
-          <nav>
+
+          <div class="navbar-toggle-box">
+            <button class="navbar-toggler">
+              <span>&#9776;</span>
+            </button>
+            <div class="toggler-content">
+              <a href="#">Home</a>
+              <a href="#">Features</a>
+              <a href="#">Learn</a>
+              <a href="#">Pricing</a>
+              <a href="#">Hire us</a>
+              <a href="#">Buy Now</a>
+            </div>
+
+          </div>
+
+          <nav class="navbar">
             <ul>
              <li>
               <a href="#">Home</a>
@@ -46,6 +62,7 @@
             </ul>
 
           </nav>
+
         </div>
         <div class="button-box">
           <button class="blue-button">Buy Now</button>
@@ -167,8 +184,11 @@
     <section class="section2">
       <div class="container">
         <div class="section2-header">
-          <h3>Front makes you look at things
+          <h3 class="desktop-header">Front makes you look at things
             <br>from a different prospective
+          </h3>
+          <h3 class="tablet-header">Front makes you look at things from a different
+            <br> prospective
           </h3>
           <button class="blue-button">
             <i class=" fa fa-solid fa-circle-play" style="color: #ffffff;"></i>
@@ -231,7 +251,13 @@
       </div>
 
       <div class="section3-banner">
-        <img src="/saas-project-assets/banners/banner_two.jpg" alt="">
+        <div class="img">
+          <img src="/saas-project-assets/banners/banner_two.jpg" alt="">
+        </div>
+
+        <div class="banner-play-button">
+          <i class="fa-solid fa-play fa-2xl"></i>
+        </div>
       </div>
     </section>
 
@@ -304,13 +330,21 @@
         <div class="card-section">
           <div class="card">
             <div class="card-content">
-              <span class="price">59</span>
+              <div class="price-box">
+                <span class="price">59</span>
               <span class="mo">/ mo</span>
+              </div>
+
               <hr>
-              <span class="text">
+              <span class="text desktop-text">
                 Start your Front business now. 100%
                 <br>guaranteed money back. No
                 <br>questions asked.
+              </span>
+              <span class="text tablet-text">
+                Start your Front business now. 100%
+                guaranteed money back. No
+                questions asked.
               </span>
               <div class="card-button">
                 <button class="blue-button">
@@ -554,11 +588,14 @@
         <span>
           When you visit or interact with our sites, services or tools, we or our authorized service providers may
           <br>use cookies for storing information to help provide you with a better, faster and safer experience and
-          <br>for marketing purposes. 
+          <br>for marketing purposes.
         </span>
       </div>
     </section>
 
   </div>
+
+
+
 </body>
 </html>

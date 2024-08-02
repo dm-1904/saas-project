@@ -14,8 +14,47 @@
   padding: var(--size-20) var(--size-30);
 }
 
+
 .nav-img img {
   height: 40px;
+}
+
+.navbar-toggle-box {
+  display: none;
+  position: relative;
+  margin-right: 30px;
+}
+
+.navbar-toggler {
+  background: none;
+  border: none;
+}
+
+.navbar-toggler span {
+  /* height: 50px;
+  width: 50px; */
+  font-size: 40px;
+}
+
+.toggler-content {
+  display: none;
+  position: absolute;
+  width: 100px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  line-height: 0;
+  padding-top: 20px;
+}
+
+.navbar-toggle-box:hover .toggler-content {
+  display: block;
+}
+
+.toggler-content a {
+  display: block;
+  color: #000000;
+  padding: 5px;
+  text-decoration: none;
 }
 
 .nav-box nav ul {
@@ -153,7 +192,6 @@
 }
 
 .section1-grid {
-  /* display: grid; */
   column-count: 4;
   max-width: 900px;
   gap: 30px;
@@ -215,6 +253,10 @@
 .section2-header {
   line-height: 1.2;
   padding-left: 30px;
+}
+
+.tablet-header {
+  display: none;
 }
 
 .section2-header h3 {
@@ -330,9 +372,40 @@ align-self: flex-end;
     margin-left: 20px;
   }
 
-  .section3-banner img{
+  .section3-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .section3-banner .img {
+    position: relative;
+    z-index: -1;
+  }
+
+  .section3-banner .img img {
+    position: relative;
+    z-index: -1;
     width: 100%;
     margin-top: 50px;
+  }
+
+  .section3-banner .banner-play-button {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    z-index: 10;
+    box-shadow: 0px 0px 10px lightgray;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section3-banner .banner-play-button i {
+    color: black;
   }
 
   .section4 {
@@ -446,6 +519,10 @@ align-self: flex-end;
     width: 320px;
     margin: 40px;
 
+  }
+
+   .tablet-text {
+    display: none;
   }
 
   .price  {
