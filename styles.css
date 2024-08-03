@@ -418,6 +418,8 @@ align-self: flex-end;
     align-items: center;
   }
 
+ 
+
   .pic-element {
     display: flex;
     position: relative;
@@ -836,6 +838,10 @@ align-self: flex-end;
   border-bottom: 1px solid lightgray;
   width: 90%;
 
+ }
+
+ .blue-terms {
+  color: var(--blue);
  }
 
  .bottom-footer {

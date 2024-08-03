@@ -1,6 +1,10 @@
 
 @media screen and (max-width: 768px) {
 
+  html {
+    height: 7000px;
+  }
+
   section {
     position: relative;
     margin-bottom: 250px;
@@ -98,6 +102,8 @@
 
   .hero .section4 .container {
     flex-direction: column;
+
+    text-align: center;
   }
 
   .hero .section5 {
@@ -141,6 +147,7 @@
 
   .card-section .mini-cards {
     width: 90%;
+    margin-left: 30px;
   }
 
   .card-section .mini-cards .mini {
@@ -239,6 +246,33 @@
     width: 550px;
     margin-left: 20px;
     text-align: left;
+  }
+
+  .section8 .top-footer {
+    justify-content: flex-start;
+  }
+
+  .section8 .top-footer .logo-box {
+    padding-left: 0px;
+  }
+
+  .top-footer .top-footer-right-box {
+    height: 400px;
+    flex-wrap: wrap;
+    max-width: 400px;
+    justify-content:flex-start;
+  }
+
+  .top-footer-right-box .company-box {
+    width: 175px;
+  }
+
+  .hero .section8 {
+    margin-bottom: 200px;
+  }
+
+  .hero .section9 {
+    margin-bottom: 0px;
   }
 
 }
