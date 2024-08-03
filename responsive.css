@@ -19,7 +19,6 @@
   .nav-section .main-content {
     flex-direction: column;
     align-items: center;
-    /* width: 100%; */
   }
 
   .nav-section .main-content {
@@ -54,9 +53,7 @@
   }
 
   .section2 .container {
-    /* margin-top: 500px; */
     flex-direction: column;
-    /* align-items: center; */
   }
 
   .section2 .section2-header {
@@ -101,7 +98,6 @@
 
   .hero .section4 .container {
     flex-direction: column;
-    /* margin-bottom: 100px; */
   }
 
   .hero .section5 {
@@ -119,8 +115,6 @@
 
   .section6 .card-section .card {
     width: 90%;
-
-
   }
 
   .section6 .container .card-content {
@@ -145,5 +139,106 @@
     width: 100%;
   }
 
+  .card-section .mini-cards {
+    width: 90%;
+  }
+
+  .card-section .mini-cards .mini {
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .mini .mini-desktop-text {
+    display: none;
+  }
+
+  .mini-cards .mini .mini-tablet-text {
+    display: block;
+    text-align: left;
+    width: 100%;
+  }
+
+  .hero .section7 {
+    padding: 0px 40px;
+    flex-direction: column;
+    height: 900px;
+    margin-bottom: 0px;
+  }
+
+  .text-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .text-container-desktop-span1 {
+    display: none;
+  }
+
+  .left-text-container .text-container-tablet-span1 {
+    display: block;
+  }
+
+  .text-container .left-text-container hr {
+    width: 100%;
+  }
+
+  .right-text-container h3 {
+    font-size: 20px;
+  }
+
+  .text-container .right-text-container img {
+    height: 40px;
+  }
+
+
+  .text-container .right-text-container .large-person {
+    height: 60px;
+  }
+
+  .section7 .section7-form {
+    min-width: 90%;
+    margin: 0 auto;
+    min-height: 0px;
+    height: 600px;
+    margin-bottom: 30px;
+  }
+
+  .form-header-desktop {
+    display: none;
+  }
+
+  .section7-form .form-header-tablet {
+    display: block;
+  }
+
+  .form-name-box .first-name {
+    width: 100%;
+  }
+
+  .first-name .first-name-input input,
+  .first-name .last-name-input input{
+    width: 90%;
+
+  }
+
+  .budget-selector-container,
+  .country-selector-container {
+    width: 50%;
+  }
+
+  .budget-selector-container select,
+  .country-selector-container select{
+    width: 92%;
+  }
+
+  .section7-form .checkbox-box span {
+    width: 550px;
+    margin-left: 20px;
+    text-align: left;
+  }
 
 }

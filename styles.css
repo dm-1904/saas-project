@@ -551,6 +551,10 @@ align-self: flex-end;
     margin-bottom: 10px;
   }
 
+  .mini .mini-tablet-text {
+    display: none;
+  }
+
   .mini-cards {
     margin-top: 100px;
     height: 410px;
@@ -612,6 +616,10 @@ align-self: flex-end;
     margin-bottom: 0px;
   }
 
+  .text-container-tablet-span1 {
+    display: none;
+  }
+
   .text-container hr {
     color: white;
     width: 50%;
@@ -620,6 +628,10 @@ align-self: flex-end;
 
   .text-container-h3-1 {
     font-size: 30px;
+  }
+
+  .form-header-tablet {
+    display: none;
   }
 
   .text-container .text-container-span1 {
