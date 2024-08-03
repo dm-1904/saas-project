@@ -766,6 +766,15 @@ align-self: flex-end;
 
   }
 
+  .logo-box {
+    width: 300px;
+  }
+
+  .top-footer-right-box {
+    width: 650px;
+    display: flex;
+  }
+
   .logo-box img {
     height: 50px;
   }
@@ -773,7 +782,13 @@ align-self: flex-end;
   .company-box, .features-box, .doc-box, .resources-box {
     display: flex;
     flex-direction: column;
+    width: 300px;
+    text-align: left;
+    padding-right: 20px;
+  }
 
+  .company-box span, .features-box span, .doc-box span, .resources-box span {
+    text-align: left;
   }
 
   .company-box .career-box {
