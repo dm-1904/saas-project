@@ -276,3 +276,182 @@
   }
 
 }
+
+
+@media screen and (max-width: 425px) {
+  #icon-box {
+    width: 90%;
+  }
+
+  #row1 {
+    padding-bottom: 20px;
+  }
+
+  div#small-box {
+    margin-left: 0px;
+  }
+
+  #icon2 {
+    margin-right: 50px;
+  }
+
+  #row2 {
+    padding-bottom: 20px;
+  }
+
+  #main-content {
+    margin-bottom: 0px;
+  }
+
+  #section1 {
+    height: 1100px;
+  }
+
+  #section1-header {
+    margin-top: 300px;
+  }
+
+  section#section1-grid {
+    margin-bottom: 0px;
+  }
+
+  #section3 {
+    height: 500px;
+  }
+
+  #circles {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+  }
+
+  div.line {
+    display: none;
+  }
+
+  div.dot-text-container {
+    margin-top: 20px;
+  }
+
+  div.text-list {
+    display: none;
+  }
+
+  #circles {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: flex-start;
+  }
+
+  div.mobile-dot-text-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    justify-content: space-between;
+    height: 85%;
+  }
+
+  /* div.section3-banner {
+    margin-bottom: 50px;
+  } */
+
+  section.section4 {
+    margin-top: 50px;
+  }
+
+  div.section4-container {
+    margin-left: 30px;
+  }
+
+  div.container5-logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  div.container5-logos div {
+    margin-bottom: 20px;
+  }
+
+  #section6 {
+    height: 1450px;
+  }
+
+  #section7 {
+    height: 1120px;
+  }
+
+  div.text-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  div.text-container-icons {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  /* div.form-button-box {
+    margin-bottom: 20px;
+  } */
+
+  #section8 {
+    margin: 0 auto;
+  }
+
+  #top-footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px;
+    margin-top: 50px;
+    align-items: center;
+  }
+
+  #top-footer-right-box {
+    flex-direction: column;
+    /* flex-wrap: nowrap; */
+    width: 400px;
+    height: 1000px;
+    align-items: center;
+    /* text-align: center; */
+  }
+
+  #section8 {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #section9 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  div.hr-box {
+    margin-top: 120px;
+  }
+
+  #bottom-footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  div.footer-socials {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  div.footer-socials select {
+    margin-top: 20px;
+  }
+
+  select#footer-select {
+    margin-top: 20px;
+  }
+
+
+
+}
